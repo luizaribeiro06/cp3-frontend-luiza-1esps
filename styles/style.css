@@ -21,7 +21,7 @@ body{
   padding: 0;
   font-family: "Poppins";
   overflow-x: hidden;
-  background-image: url('/src/imgs/hero-img.jpg');
+  background-image: url('../src/imgs/hero-img.jpg');
   background-size: cover;
   background-position: 50% 50%;
 }
