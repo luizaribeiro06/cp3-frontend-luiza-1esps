@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CP 3 - Front-End</title>
+</head>
+<body>
+<header> 
+  <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html"><img src="./src/imgs/logo.png" alt="Imagem do Logo" class="logo-img"></a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        ☰
+      </button>
+      <ul class="nav-links">
+          <li>Produtos</li> 
+          <li>Sobre Nós</li>
+          <li>Lista de Natal</li>
+      </ul>
+  </nav>
+</header>
+<main>
+  <section class="hero-banner">
+      <div class="hero-container"> 
+        <div class="hero-content">
+          <div class="hero-text-wrapper">
+            <h1 class="hero-title">Entre no Espírito do Natal!</h1>
+            <p class="hero-subtitle">Transforme seu Natal em um momento mágico com as melhores ofertas! Encontre presentes especiais, decorações encantadoras e tudo o que você precisa para celebrar com quem ama.
+            </p>  
+            <button class="btn">Compre Agora!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+<footer>
+  <h4>🚀❣️🚀 Luiza Ribeiro - 1ESPS 🚀❣️🚀</h4>
+</footer>
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+</body>
+</html>
